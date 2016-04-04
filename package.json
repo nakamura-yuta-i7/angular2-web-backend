@@ -1,0 +1,21 @@
+{
+  "name": "angular2-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "concurrently 'cd backend; npm start' 'cd web; npm start' ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/Yuta-Nakamura/angular2-web-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Yuta-Nakamura/angular2-web-backend#readme"
+}
